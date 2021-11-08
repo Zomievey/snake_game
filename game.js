@@ -15,7 +15,7 @@ const gameBoard = document.getElementById("game-board");
 function main(currentTime) {
   if (gameOver) {
     if (confirm("GAME OVER, Press OK to play again!")) {
-      window.location = "/snake_game/";
+      window.location = "https://zomievey.github.io/snake_game/";
     }
     return;
   }
